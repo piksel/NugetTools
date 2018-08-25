@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp2.1;net471</TargetFrameworks>
+    <RuntimeIdentifiers>win10-x64;linux-x64;osx-x64</RuntimeIdentifiers>
+    <LangVersion>7.3</LangVersion>
+    <RootNamespace>Piksel.NugetTools.GetNugetDependants</RootNamespace>
+    <Authors>Nils Måsén</Authors>
+    <Company>piksel bitworks</Company>
+    <Product>NugetTools</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.Http.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
